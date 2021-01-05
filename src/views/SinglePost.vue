@@ -76,7 +76,6 @@ export default {
     },
     async updatePost(){
       event.preventDefault();
-      console.log(this.id);
       this.$router.push({name: 'UpadatePost', params: {id: this.id}});
     }
   },

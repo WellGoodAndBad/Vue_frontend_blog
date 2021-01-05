@@ -34,7 +34,6 @@ export default {
   props:[],
   data(){
       return {
-        // id_post: this.$route.params.id,
         dataLgn: JSON.parse(localStorage.getItem('loginData')) || '',
         form_errors: [],
         posts_blog_title: '',
